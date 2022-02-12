@@ -20,7 +20,7 @@ function writePassword() {
 
   passwordText.value = password;
 
-}
+};
 
 var generatePassword = function () {
   var lengthChara = window.prompt("How many characters would you like in your password? It must be between 8-128 characters.");
@@ -81,11 +81,11 @@ var generatePassword = function () {
       for (let i = 0; i < lengthChara; i++) {
         randomNumber = Math.floor(Math.random() * allChara.length);
         password += allChara[randomNumber];
-      }  
+      }; 
        
       return password;
       
-}    
+};    
 
     // Add event listener to generate button
     generateBtn.addEventListener("click", writePassword);
