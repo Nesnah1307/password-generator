@@ -7,5 +7,7 @@
 
 * The password generator is completely random and was written in javascript.
 
+## Link to deployed page
+https://nesnah1307.github.io/password-generator/
 
 ![passwordgen](https://user-images.githubusercontent.com/96394025/153690696-c2452002-21ef-485e-9afd-f6e739e1e7a6.jpg)
